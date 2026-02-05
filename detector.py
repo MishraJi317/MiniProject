@@ -6,7 +6,7 @@ from concurrent.futures import ThreadPoolExecutor
 ambulance_model = YOLO("best_ambulance.pt")
 vehicle_model = YOLO("yolov8n.pt")
 
-img = cv2.imread("ambulance2.png")
+img = cv2.imread("img4.png")
 
 vehicle_classes = ['car', 'motorcycle', 'bus', 'truck']
 
